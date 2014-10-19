@@ -1,8 +1,8 @@
-html { min-width: 1040px; }
-body { font-family: Baskerville,Georgia,"Liberation Serif",Times,serif; margin: auto; margin-top: 40px; margin-bottom: 4em; width: 960px; text-align: justify; }
-#body { position: relative; }
+html { min-width: 720px; }
+body { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; margin: auto; margin-top: 40px; margin-bottom: 4em; width: 100%; text-align: justify; }
+#body { position: relative; margin: 0 auto; width: 720px;}
 footer { font-size: medium; margin-top: 8em; }
-aside { font-size: small; left: 780px; position: absolute; width: 180px; }
+/*aside { font-size: small; left: 780px; position: absolute; width: 180px; }*/
 #body > p, li > p { line-height: 1.5em; }
 #body > p { width: 720px; }
 #body > blockquote { width: 640px; line-height: 1.5em;}
