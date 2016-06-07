@@ -1,7 +1,7 @@
 html { min-width: 720px; }
 body { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; margin: auto; margin-top: 40px; margin-bottom: 4em; width: 100%; text-align: justify; }
 #body { position: relative; margin: 0 auto; width: 720px;}
-footer { font-size: medium; margin-top: 8em; }
+footer { font-size: medium; margin-top: 2em; font-weight: 300; font-size: 20px; width: 100%; text-align: center; }
 /*aside { font-size: small; left: 780px; position: absolute; width: 180px; }*/
 #body > p, li > p { line-height: 1.5em; }
 #body > p { width: 720px; }
@@ -12,7 +12,7 @@ a:not(:hover) { text-decoration: none; }
 pre, code, textarea { font-family: "Menlo", monospace; }
 code { line-height: 1em; }
 textarea { font-size: 100%; }
-#body > pre { border-left: solid 2px #ccc; padding-left: 18px; margin: 2em 0 2em -20px; }
+/* #body > pre { border-left: solid 2px #ccc; padding-left: 18px; margin: 2em 0 2em -20px; } */
 .html .value, .javascript .string, .javascript .regexp { color: #756bb1; }
 .html .tag, .css .tag, .javascript .keyword { color: #3182bd; }
 .comment { color: #636363; }
@@ -28,9 +28,9 @@ blockquote:after { position: absolute; }
 h1 { font-size: 96px; margin-top: .3em; margin-bottom: 0; }
 h1 + h2 { margin-top: 0; }
 h2 { font-weight: 400; font-size: 28px; }
-footer { font-weight: 300; font-size: 20px; }
 h1, h2, footer { font-family: "Yanone Kaffeesatz"; text-rendering: optimizeLegibility; }
-#logo { width: 96px; height: 64px; }
+/*#logo { width: 96px; height: 64px; }*/
+#logo { max-width: 720px; height: 128px; }
 #ribbon { position: absolute; top: 0; right: 0; width: 75px; height: 75px;}
 #sponsor { width: 183px; vertical-align: middle; display: float;}
 #imgstrip { width: 720px; display: inline-block; text-align: center; margin-top: 1em; }
@@ -50,4 +50,5 @@ table.sample { width: 720px; border-width: 0px; border-spacing: 0px; border-styl
 table.sample th { border-width: 1px; padding: 6px; border-style: solid; border-color: gray; background-color: lightgray; -moz-border-radius: ; text-align: center; }
 table.sample td { border-width: 1px; padding: 6px; border-style: solid; border-color: gray; background-color: white; -moz-border-radius: ; }
 button { font-weight: bold; font-size: 18pt; padding: 18px; }
-
+pre { font-size: 12px; line-height: 1.2; font-style: normal; font-variant: normal; font-weight: 400;}
+pre.permalink { font-size: 1.6em; text-align: center; display: inline-block; width: 100%; } 
