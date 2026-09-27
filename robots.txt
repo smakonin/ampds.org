@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: http://ampds.org/sitemap.xml
-
+Sitemap: https://makonin.com/ampds/sitemap.xml
